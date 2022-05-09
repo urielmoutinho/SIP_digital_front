@@ -4,7 +4,7 @@ export const Container = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom:2rem;
+  margin-bottom: 2rem;
   .profile-settings {
     display: flex;
     align-items: center;

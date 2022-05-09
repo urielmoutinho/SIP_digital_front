@@ -19,9 +19,7 @@ export const Content = styled.div`
     line-height: 26px;
   }
   table {
-
-    overflow-x:auto;
-
+    overflow-x: auto;
 
     border-collapse: collapse;
 
@@ -50,37 +48,47 @@ export const Content = styled.div`
     tbody {
       td {
         padding: 18px 25px;
-        button{
-            background: linear-gradient(90deg, #3374AB 0%, #5AB1F3 59.9%, #6BD8FE 100%);
-            border-radius: 2.93333px;
-            font-family: 'Lato';
-            font-style: normal;
-            display:block;
-            width:100%;
-            font-weight: 700;
-            border:0;
-            padding:15px 5px;
-            font-size: 12px;
-            text-align: center;
-            text-transform: uppercase;
-            color: #FFFFFF;
+        button {
+          background: linear-gradient(
+            90deg,
+            #3374ab 0%,
+            #5ab1f3 59.9%,
+            #6bd8fe 100%
+          );
+          border-radius: 2.93333px;
+          font-family: "Lato";
+          font-style: normal;
+          display: block;
+          width: 100%;
+          font-weight: 700;
+          border: 0;
+          padding: 15px 5px;
+          font-size: 12px;
+          text-align: center;
+          text-transform: uppercase;
+          color: #ffffff;
         }
       }
       tr {
-        font-family: 'Lato';
+        font-family: "Lato";
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
         color: #52575c;
-        .accent-color{
-            background: linear-gradient(90deg, #3374AB 0%, #5AB1F3 59.9%, #6BD8FE 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            text-fill-color: transparent;
+        .accent-color {
+          background: linear-gradient(
+            90deg,
+            #3374ab 0%,
+            #5ab1f3 59.9%,
+            #6bd8fe 100%
+          );
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          text-fill-color: transparent;
         }
       }
-      tr:last-child{
+      tr:last-child {
         border: 1px solid #dbdde0;
         border-left: 0;
         border-right: 0;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.footer`
   padding: 0.2rem 1rem;
-height:auto;
+  height: auto;
   .pagination ul {
     margin: 2em auto;
     padding-left: 0;
@@ -16,10 +16,10 @@ height:auto;
     font-weight: 400;
     font-size: 13px;
     color: #25282b;
-    &.prev{
-        background: #FFFFFF;
-        border-radius: 20px;
-        color: #E8E8E8;
+    &.prev {
+      background: #ffffff;
+      border-radius: 20px;
+      color: #e8e8e8;
     }
   }
 
